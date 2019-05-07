@@ -1,0 +1,304 @@
+
+*** Running vivado
+    with args -log version1_hw_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source version1_hw_wrapper.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source version1_hw_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ibai/vivado/ESDC/Lab2/wr_memory'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ibai/vivado/ESDC/Lab2/vga_sync'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ibai/vivado/ESDC/Lab2/control_v1'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/ibai/vivado/ESDC/Lab2/add_generator'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Vivado/2017.2/data/ip'.
+Command: synth_design -top version1_hw_wrapper -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010-clg400'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5891 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1214.469 ; gain = 70.000 ; free physical = 10191 ; free virtual = 22052
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'version1_hw_wrapper' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw_wrapper.vhd:27]
+INFO: [Synth 8-3491] module 'version1_hw' declared at '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:14' bound to instance 'version1_hw_i' of component 'version1_hw' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw_wrapper.vhd:41]
+INFO: [Synth 8-638] synthesizing module 'version1_hw' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:31]
+INFO: [Synth 8-3491] module 'version1_hw_VGA_SYNC_0_0' declared at '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_VGA_SYNC_0_0_stub.vhdl:5' bound to instance 'VGA_SYNC_0' of component 'version1_hw_VGA_SYNC_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'version1_hw_VGA_SYNC_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_VGA_SYNC_0_0_stub.vhdl:20]
+INFO: [Synth 8-3491] module 'version1_hw_add_generator_0_0' declared at '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_add_generator_0_0_stub.vhdl:5' bound to instance 'add_generator_0' of component 'version1_hw_add_generator_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'version1_hw_add_generator_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_add_generator_0_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'version1_hw_blk_mem_gen_0_0' declared at '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'version1_hw_blk_mem_gen_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'version1_hw_blk_mem_gen_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_blk_mem_gen_0_0_stub.vhdl:18]
+INFO: [Synth 8-3491] module 'version1_hw_clk_wiz_0_0' declared at '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_clk_wiz_0_0_stub.vhdl:5' bound to instance 'clk_wiz_0' of component 'version1_hw_clk_wiz_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'version1_hw_clk_wiz_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_clk_wiz_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'version1_hw_control_v1_0_0' declared at '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_control_v1_0_0_stub.vhdl:5' bound to instance 'control_v1_0' of component 'version1_hw_control_v1_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'version1_hw_control_v1_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_control_v1_0_0_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'version1_hw_wr_memory_0_0' declared at '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_wr_memory_0_0_stub.vhdl:5' bound to instance 'wr_memory_0' of component 'version1_hw_wr_memory_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:173]
+INFO: [Synth 8-638] synthesizing module 'version1_hw_wr_memory_0_0' [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/realtime/version1_hw_wr_memory_0_0_stub.vhdl:20]
+INFO: [Synth 8-256] done synthesizing module 'version1_hw' (1#1) [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw.vhd:31]
+INFO: [Synth 8-256] done synthesizing module 'version1_hw_wrapper' (2#1) [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/sources_1/bd/version1_hw/hdl/version1_hw_wrapper.vhd:27]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1254.969 ; gain = 110.500 ; free physical = 10203 ; free virtual = 22064
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1254.969 ; gain = 110.500 ; free physical = 10202 ; free virtual = 22063
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp13/version1_hw_blk_mem_gen_0_0_in_context.xdc] for cell 'version1_hw_i/blk_mem_gen_0'
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp13/version1_hw_blk_mem_gen_0_0_in_context.xdc] for cell 'version1_hw_i/blk_mem_gen_0'
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp15/version1_hw_clk_wiz_0_0_in_context.xdc] for cell 'version1_hw_i/clk_wiz_0'
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp15/version1_hw_clk_wiz_0_0_in_context.xdc] for cell 'version1_hw_i/clk_wiz_0'
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp17/version1_hw_add_generator_0_0_in_context.xdc] for cell 'version1_hw_i/add_generator_0'
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp17/version1_hw_add_generator_0_0_in_context.xdc] for cell 'version1_hw_i/add_generator_0'
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp19/version1_hw_control_v1_0_0_in_context.xdc] for cell 'version1_hw_i/control_v1_0'
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp19/version1_hw_control_v1_0_0_in_context.xdc] for cell 'version1_hw_i/control_v1_0'
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp21/version1_hw_VGA_SYNC_0_0_in_context.xdc] for cell 'version1_hw_i/VGA_SYNC_0'
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp21/version1_hw_VGA_SYNC_0_0_in_context.xdc] for cell 'version1_hw_i/VGA_SYNC_0'
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp23/version1_hw_wr_memory_0_0_in_context.xdc] for cell 'version1_hw_i/wr_memory_0'
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp23/version1_hw_wr_memory_0_0_in_context.xdc] for cell 'version1_hw_i/wr_memory_0'
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/constrs_1/imports/Lab2/zyboVGA_HW.xdc]
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/constrs_1/imports/Lab2/zyboVGA_HW.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.srcs/constrs_1/imports/Lab2/zyboVGA_HW.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/version1_hw_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/version1_hw_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 1561.184 ; gain = 0.000 ; free physical = 9962 ; free virtual = 21824
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1561.184 ; gain = 416.715 ; free physical = 10041 ; free virtual = 21903
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1561.184 ; gain = 416.715 ; free physical = 10041 ; free virtual = 21903
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  /home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp15/version1_hw_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  /home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/.Xil/Vivado-5883-ibaipc/dcp15/version1_hw_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for version1_hw_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for version1_hw_i/VGA_SYNC_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for version1_hw_i/add_generator_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for version1_hw_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for version1_hw_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for version1_hw_i/control_v1_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for version1_hw_i/wr_memory_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1561.184 ; gain = 416.715 ; free physical = 10042 ; free virtual = 21904
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1561.184 ; gain = 416.715 ; free physical = 10042 ; free virtual = 21904
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1561.184 ; gain = 416.715 ; free physical = 10042 ; free virtual = 21904
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'version1_hw_i/clk_wiz_0/clk_out1' to pin 'version1_hw_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1569.184 ; gain = 424.715 ; free physical = 9913 ; free virtual = 21775
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1569.184 ; gain = 424.715 ; free physical = 9913 ; free virtual = 21775
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |version1_hw_VGA_SYNC_0_0      |         1|
+|2     |version1_hw_add_generator_0_0 |         1|
+|3     |version1_hw_blk_mem_gen_0_0   |         1|
+|4     |version1_hw_clk_wiz_0_0       |         1|
+|5     |version1_hw_control_v1_0_0    |         1|
+|6     |version1_hw_wr_memory_0_0     |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------+------+
+|      |Cell                               |Count |
++------+-----------------------------------+------+
+|1     |version1_hw_VGA_SYNC_0_0_bbox      |     1|
+|2     |version1_hw_add_generator_0_0_bbox |     1|
+|3     |version1_hw_blk_mem_gen_0_0_bbox   |     1|
+|4     |version1_hw_clk_wiz_0_0_bbox       |     1|
+|5     |version1_hw_control_v1_0_0_bbox    |     1|
+|6     |version1_hw_wr_memory_0_0_bbox     |     1|
+|7     |IBUF                               |     8|
+|8     |OBUF                               |    18|
++------+-----------------------------------+------+
+
+Report Instance Areas: 
++------+----------------+------------+------+
+|      |Instance        |Module      |Cells |
++------+----------------+------------+------+
+|1     |top             |            |   129|
+|2     |  version1_hw_i |version1_hw |   103|
++------+----------------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1578.199 ; gain = 433.730 ; free physical = 9912 ; free virtual = 21774
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1578.199 ; gain = 127.516 ; free physical = 9970 ; free virtual = 21832
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1578.207 ; gain = 433.730 ; free physical = 9970 ; free virtual = 21832
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+36 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1583.199 ; gain = 455.312 ; free physical = 9931 ; free virtual = 21792
+INFO: [Common 17-1381] The checkpoint '/home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/synth_1/version1_hw_wrapper.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.09 . Memory (MB): peak = 1583.199 ; gain = 0.000 ; free physical = 9931 ; free virtual = 21793
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  4 11:31:50 2019...

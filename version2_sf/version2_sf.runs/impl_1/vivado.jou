@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Apr 25 11:21:24 2019
+# Process ID: 21524
+# Current directory: /home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.runs/impl_1
+# Command line: vivado -log version1_sf_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source version1_sf_wrapper.tcl -notrace
+# Log file: /home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.runs/impl_1/version1_sf_wrapper.vdi
+# Journal file: /home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source version1_sf_wrapper.tcl -notrace

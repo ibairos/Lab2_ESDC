@@ -1,0 +1,69 @@
+
+*** Running vivado
+    with args -log version1_sf_axi_gpio_0_4.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source version1_sf_axi_gpio_0_4.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source version1_sf_axi_gpio_0_4.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1219.457 ; gain = 76.996 ; free physical = 7966 ; free virtual = 21407
+INFO: [Synth 8-638] synthesizing module 'version1_sf_axi_gpio_0_4' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ip/version1_sf_axi_gpio_0_4/synth/version1_sf_axi_gpio_0_4.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'pselect_f' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f' (1#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized0' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized0' (1#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized1' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized1' (1#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'pselect_f__parameterized2' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'pselect_f__parameterized2' (1#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (2#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (3#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (4#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/0ba0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (5#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/52cb/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (6#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:177]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (7#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ipshared/cb07/hdl/axi_gpio_v2_0_vh_rfs.vhd:1257]
+INFO: [Synth 8-256] done synthesizing module 'version1_sf_axi_gpio_0_4' (8#1) [/home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.srcs/sources_1/bd/version1_sf/ip/version1_sf_axi_gpio_0_4/synth/version1_sf_axi_gpio_0_4.vhd:84]
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1261.957 ; gain = 119.496 ; free physical = 7952 ; free virtual = 21393
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1261.957 ; gain = 119.496 ; free physical = 7947 ; free virtual = 21388
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 1621.562 ; gain = 0.000 ; free physical = 7526 ; free virtual = 20968
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7463 ; free virtual = 20905
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7463 ; free virtual = 20905
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7465 ; free virtual = 20907
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7538 ; free virtual = 20980
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7514 ; free virtual = 20958
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7354 ; free virtual = 20799
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7353 ; free virtual = 20797
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7352 ; free virtual = 20796
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7346 ; free virtual = 20790
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7346 ; free virtual = 20790
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7346 ; free virtual = 20790
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7346 ; free virtual = 20790
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7345 ; free virtual = 20789
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7345 ; free virtual = 20789
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     5|
+|3     |LUT3 |     5|
+|4     |LUT4 |     6|
+|5     |LUT5 |    12|
+|6     |LUT6 |     6|
+|7     |FDR  |     4|
+|8     |FDRE |    26|
+|9     |FDSE |     1|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.562 ; gain = 479.102 ; free physical = 7345 ; free virtual = 20789
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1621.570 ; gain = 491.695 ; free physical = 7360 ; free virtual = 20804

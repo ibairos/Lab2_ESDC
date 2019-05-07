@@ -1,0 +1,75 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.2 (lin64) Build 1909853 Thu Jun 15 18:39:10 MDT 2017
+| Date         : Thu Apr  4 11:32:17 2019
+| Host         : ibaipc running 64-bit Ubuntu 18.04.2 LTS
+| Command      : report_control_sets -verbose -file version1_hw_wrapper_control_sets_placed.rpt
+| Design       : version1_hw_wrapper
+| Device       : xc7z010
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    11 |
+| Unused register locations in slices containing registers |    47 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              39 |           25 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              10 |            3 |
+| Yes          | No                    | No                     |              50 |           16 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              14 |            4 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+-----------------------------------------------------+-------------------------------------------+------------------+----------------+
+|              Clock Signal              |                    Enable Signal                    |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
++----------------------------------------+-----------------------------------------------------+-------------------------------------------+------------------+----------------+
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/control_v1_0/U0/old_sw[3]_i_1_n_0     |                                           |                1 |              4 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/wr_memory_0/U0/i_0                    | version1_hw_i/wr_memory_0/U0/i[3]_i_1_n_1 |                1 |              4 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/wr_memory_0/U0/j[3]_i_1_n_1           |                                           |                1 |              4 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/control_v1_0/U0/E[0]                  |                                           |                1 |              4 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/control_v1_0/U0/new_sw[3]_i_1_n_0     |                                           |                2 |              4 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/VGA_SYNC_0/U0/pixel_row[9]_i_1_n_0    |                                           |                3 |              8 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/VGA_SYNC_0/U0/pixel_column[9]_i_1_n_0 |                                           |                2 |              9 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 |                                                     | version1_hw_i/VGA_SYNC_0/U0/clear         |                3 |             10 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/VGA_SYNC_0/U0/sel                     | version1_hw_i/VGA_SYNC_0/U0/v_count0      |                3 |             10 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 | version1_hw_i/wr_memory_0/U0/address_t              |                                           |                6 |             17 |
+|  version1_hw_i/clk_wiz_0/inst/clk_out1 |                                                     |                                           |               25 |             39 |
++----------------------------------------+-----------------------------------------------------+-------------------------------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 4      |                     5 |
+| 8      |                     1 |
+| 9      |                     1 |
+| 10     |                     2 |
+| 16+    |                     2 |
++--------+-----------------------+
+
+

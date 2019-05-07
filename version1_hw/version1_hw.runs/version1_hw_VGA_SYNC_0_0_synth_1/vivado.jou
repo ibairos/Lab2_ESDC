@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Apr  4 11:29:32 2019
+# Process ID: 5338
+# Current directory: /home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/version1_hw_VGA_SYNC_0_0_synth_1
+# Command line: vivado -log version1_hw_VGA_SYNC_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source version1_hw_VGA_SYNC_0_0.tcl
+# Log file: /home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/version1_hw_VGA_SYNC_0_0_synth_1/version1_hw_VGA_SYNC_0_0.vds
+# Journal file: /home/ibai/vivado/ESDC/Lab2/version1_hw/version1_hw.runs/version1_hw_VGA_SYNC_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source version1_hw_VGA_SYNC_0_0.tcl -notrace

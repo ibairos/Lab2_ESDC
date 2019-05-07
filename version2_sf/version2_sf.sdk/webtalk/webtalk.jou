@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:10 MDT 2017
+# 
+# Start of session at: Thu Apr 25 11:27:25 2019
+# Process ID: 24610
+# Current directory: /home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.sdk/webtalk/webtalk.log
+# Journal file: /home/ibai/vivado/ESDC/Lab2/version2_sf/version2_sf.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
